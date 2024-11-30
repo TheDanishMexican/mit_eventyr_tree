@@ -1,0 +1,249 @@
+[
+    {
+        "id": "scene1",
+        "title": "Sultne valg",
+        "text": "Du kommer sulten hjem efter en lang dag og skal tage en beslutning omkring aftensmad, baseret på pris og praksis?",
+        "choices": [
+            {
+                "btnText": "A. Bestil takeout",
+                "nextScene": "scene2A"
+            },
+            {
+                "btnText": "B. Købe ind til aftensmad",
+                "nextScene": "scene2B"
+            },
+            {
+                "btnText": "C. Spis det der er i køleskabet",
+                "nextScene": "scene2C"
+            }
+        ]
+    },
+    {
+        "id": "scene2A",
+        "title": "Lag 2. Du har valgt at bestille takeout",
+        "text": "Du er simpelthen for træt til at købe ind og lave mad til dig selv og derfor vælger du at købe takeout i aften, men nu skal du vælge hvordan du skal bestille din takeout?",
+        "choices": [
+            {
+                "btnText": "A. Wolt",
+                "nextScene": "scene3AA"
+            },
+            {
+                "btnText": "B. JustEat",
+                "nextScene": "scene3AB"
+            },
+            {
+                "btnText": "C. Den lokale pizza mand",
+                "nextScene": "scene3AC"
+            }
+        ]
+    },
+    {
+        "id": "scene2B",
+        "title": "Lag 2. Du har valgt at købe ind til aftensmad",
+        "text": "Du har lyst til at lave en helt specifik ret, men du vil lade dig inspirere ved at tage ud og købe ind. Du skal dog først bestemme hvilket supermarkede du skal tage hen til?",
+        "choices": [
+            {
+                "btnText": "A. Netto",
+                "nextScene": "scene3BA"
+            },
+            {
+                "btnText": "B. Rema1000",
+                "nextScene": "scene3BB"
+            },
+            {
+                "btnText": "C. Meny",
+                "nextScene": "scene3BC"
+            }
+        ]
+    },
+    {
+        "id": "scene2C",
+        "title": "Lag 2. Du har valgt den nemmeste løsning som er blot at spise det der er i køleskabet",
+        "text": "Du er så doven at du ikke orker at ringe efter takeout, eller tage ud at købe ind, så derfor må du bare spise det der er i køleskabet, men det er jo også lidt spændende - hvad mon der er af muligheder?",
+        "choices": [
+            {
+                "btnText": "A. En gryderet der måske er ved at være for gammel",
+                "nextScene": "scene3CA"
+            },
+            {
+                "btnText": "B. Rugbrødsmadder",
+                "nextScene": "scene3CB"
+            },
+            {
+                "btnText": "C. Kopnudler",
+                "nextScene": "scene3CC"
+            }
+        ]
+    },
+    {
+        "id": "scene3AA",
+        "title": "Du har valgt at du skal have takeout via Wolt",
+        "text": "Du er ekspert i takeout apps og du ved at Wolt er den absolut bedst, da Wolt har de aller bedste muligheder, men du skal stadig vælge en mulighed, spørgsmålet er bare hvilken?",
+        "choices": [
+            {
+                "btnText": "A. McDonalds",
+                "nextScene": "scene4AA"
+            },
+            {
+                "btnText": "B. Burger King",
+                "nextScene": "scene4AB"
+            },
+            {
+                "btnText": "C. Sushi restauranten",
+                "nextScene": "scene4AC"
+            }
+        ]
+    },
+    {
+        "id": "scene3AB",
+        "title": "Du har valgt at du skal have takeout via JustEat",
+        "text": "Du er ekspert i takeout apps og du ved at JustEat er den absolut bedst, da JustEat har de aller bedste muligheder, men du skal stadig vælge en mulighed, spørgsmålet er bare hvilken?",
+        "choices": [
+            {
+                "btnText": "A. McDonalds",
+                "nextScene": "scene4AA"
+            },
+            {
+                "btnText": "B. Burger King",
+                "nextScene": "scene4AB"
+            },
+            {
+                "btnText": "C. Sushi restauranten",
+                "nextScene": "scene4AC"
+            }
+        ]
+    },
+    {
+        "id": "scene3AC",
+        "title": "Du har valgt at du skal ringe til den lokale pizza mand",
+        "text": "Du er i pizzahumør og du er meget tæt på slutningen af dine beslutninger, nu skal du blot vælge en pizza, men hvilken?",
+        "choices": [
+            {
+                "btnText": "A. Salat pizza",
+                "nextScene": "scene4AA"
+            },
+            {
+                "btnText": "B. Pep med dress",
+                "nextScene": "scene4AB"
+            },
+            {
+                "btnText": "C. Vegetar pizza",
+                "nextScene": "scene4AC"
+            }
+        ]
+    },
+    {
+        "id": "scene3BA",
+        "title": "Lag 3. Du har valgt at købe ind til aftensmad i Netto fordi du elsker deres logo",
+        "text": "Nu skal du bare tage stilling til hvilken ret det egentlig er du ønsker at købe ind til og der er jo mange muligheder i Netto?",
+        "choices": [
+            {
+                "btnText": "A. Færdigret fra køledisken",
+                "nextScene": "scene3BA"
+            },
+            {
+                "btnText": "B. Fryse pizza",
+                "nextScene": "scene3BB"
+            },
+            {
+                "btnText": "C. Du køber ind til en klassisk bolognese",
+                "nextScene": "scene3BC"
+            }
+        ]
+    },
+    {
+        "id": "scene2B",
+        "title": "Lag 3. Du har valgt at købe ind til aftensmad i Rema fordi du er mega rig og foretrækker de bedste ingredienser",
+        "text": "Nu skal du bare tage stilling til hvilken ret det egentlig er du ønsker at købe ind til og der er jo mange muligheder i Meny?",
+        "choices": [
+            {
+                "btnText": "A. Færdigret fra køledisken",
+                "nextScene": "scene3BA"
+            },
+            {
+                "btnText": "B. Fryse pizza",
+                "nextScene": "scene3BB"
+            },
+            {
+                "btnText": "C. Du køber ind til en klassisk bolognese",
+                "nextScene": "scene3BC"
+            }
+        ]
+    },
+    {
+        "id": "scene2B",
+        "title": "Lag 3. Du har valgt at købe ind til aftensmad i Meny fordi du er mega rig og foretrækker de bedste ingredienser",
+        "text": "Nu skal du bare tage stilling til hvilken ret det egentlig er du ønsker at købe ind til og der er jo mange muligheder i Meny?",
+        "choices": [
+            {
+                "btnText": "A. Færdigret fra køledisken",
+                "nextScene": "scene3BA"
+            },
+            {
+                "btnText": "B. Fryse pizza",
+                "nextScene": "scene3BB"
+            },
+            {
+                "btnText": "C. Du køber ind til en klassisk bolognese",
+                "nextScene": "scene3BC"
+            }
+        ]
+    },
+    {
+        "id": "scene2C",
+        "title": "Lag 3. Du har valgt den gryderet der måske er for gammel",
+        "text": "Tillykke med dit valg og må du nyde resultaterne af din beslutning",
+        "choices": [
+            {
+                "btnText": "A. En gryderet der måske er ved at være for gammel",
+                "nextScene": "scene3CA"
+            },
+            {
+                "btnText": "B. Rugbrødsmadder",
+                "nextScene": "scene3CB"
+            },
+            {
+                "btnText": "C. Kopnudler",
+                "nextScene": "scene3CC"
+            }
+        ]
+    },
+    {
+        "id": "scene2C",
+        "title": "Lag3. Du har valgt rugbrødsmadder.",
+        "text": "Rugbrødsmadder er et kvalificeret bud og du priser dig lykkelig over at være sådan et velforberedt menneske der har sådan noget stående i køleskabet.",
+        "choices": [
+            {
+                "btnText": "A. En gryderet der måske er ved at være for gammel",
+                "nextScene": "scene3CA"
+            },
+            {
+                "btnText": "B. Rugbrødsmadder",
+                "nextScene": "scene3CB"
+            },
+            {
+                "btnText": "C. Kopnudler",
+                "nextScene": "scene3CC"
+            }
+        ]
+    },
+    {
+        "id": "scene2C",
+        "title": "Lag 3. Du har valgt kopnudler",
+        "text": "Kopnudler er et strålende gastronomisk aftensmåltid med masser af næring, du har taget et godt valg der vil komme dig til gode fremover i dit liv.",
+        "choices": [
+            {
+                "btnText": "A. En gryderet der måske er ved at være for gammel",
+                "nextScene": "scene3CA"
+            },
+            {
+                "btnText": "B. Rugbrødsmadder",
+                "nextScene": "scene3CB"
+            },
+            {
+                "btnText": "C. Kopnudler",
+                "nextScene": "scene3CC"
+            }
+        ]
+    }
+]
